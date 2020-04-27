@@ -8,8 +8,8 @@ require 'hammer_cli_foreman_leapp/preupgrade_reports'
 
 module HammerCLIForemanLeapp
   HammerCLI::MainCommand.lazy_subcommand(
-    'preupgrade_reports',
-    'Manage Leapp preupgrade_reports',
+    'preupgrade-reports',
+    'Manage Leapp Preupgrade reports',
     'HammerCLIForemanLeapp::PreupgradeReportsCommand',
     'hammer_cli_foreman_leapp/preupgrade_reports'
   )
