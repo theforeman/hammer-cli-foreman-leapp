@@ -24,7 +24,7 @@ This is the list of which version of Foreman Leapp is needed to which version of
     EOQ
 
     # to confirm things work, this should return useful output
-    hammer preupgrade_reports --help
+    hammer preupgrade-reports --help
 
 ## More info
 
