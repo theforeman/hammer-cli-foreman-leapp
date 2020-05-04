@@ -9,7 +9,7 @@ This Hammer CLI plugin contains set of commands for [foreman_leapp](
 This is the list of which version of Foreman Leapp is needed to which version of this plugin.
 
 | hammer_cli_foreman_leapp | 1.0.0 |
-|----------------------------|-------|
+|--------------------------|-------|
 |            foreman_leapp | 1.0.0 |
 
 ## Installation
