@@ -35,14 +35,7 @@ module HammerCLIForemanLeapp
     class JobInvocationCommand < HammerCLIForeman::ListCommand
       action :job_invocation
       command_name 'job-invocation'
-
-      output do
-        field :id, _('Id')
-        field :reported_at, _('Reported at'), Fields::Date
-        field :job_invocation_id, _('Job Invocation Id')
-        field :host_id, _('Host Id')
-      end
-
+      output PreupgradeReportsCommand::ListCommand.output_definition
       build_options
     end
 
