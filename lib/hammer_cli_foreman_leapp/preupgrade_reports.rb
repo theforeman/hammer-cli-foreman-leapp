@@ -25,7 +25,7 @@ module HammerCLIForemanLeapp
           field :audience, _('Audience')
           field :severity, _('Severity')
           field :tags, _('Tags'), Fields::List
-          field :summary, _('Summary'), Fields::LongText
+          field :summary, _('Summary'), Fields::Text
         end
       end
 
