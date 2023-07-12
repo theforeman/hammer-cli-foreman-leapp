@@ -4,6 +4,7 @@ require 'hammer_cli'
 require 'hammer_cli_foreman'
 
 require 'hammer_cli_foreman_leapp/version'
+require 'hammer_cli_foreman_admin/i18n'
 require 'hammer_cli_foreman_leapp/preupgrade_reports'
 
 module HammerCLIForemanLeapp

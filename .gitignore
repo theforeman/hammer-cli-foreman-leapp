@@ -4,3 +4,7 @@ Gemfile.local
 Gemfile.local.rb
 pkg
 .bundle
+
+# Locale files
+locale/*/*.edit.po
+locale/*/*.po.time_stamp
