@@ -18,12 +18,10 @@ Gem::Specification.new do |spec|
   spec.platform      = Gem::Platform::RUBY
   spec.summary       = 'Foreman Leapp plugin for Hammer CLI'
 
-  spec.files         = Dir['{lib,config}/**/*', 'LICENSE', 'README*'] + Dir["locale/**/*.{po,pot,mo}"]
+  spec.files         = Dir['{lib,config}/**/*', 'LICENSE', 'README*'] + Dir['locale/**/*.{po,pot,mo}']
   spec.require_paths = ['lib']
   spec.test_files    = Dir['{test}/**/*']
 
-  spec.add_dependency 'hammer_cli_foreman', '>= 2.0.0', '< 4.0.0'
-  spec.add_development_dependency 'bundler'
-  spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rubocop', '~> 0.80'
+  spec.add_dependency 'hammer_cli_foreman', '~> 3.10'
+  spec.required_ruby_version = '>= 2.7', '< 4'
 end
