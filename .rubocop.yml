@@ -1,3 +1,6 @@
+require:
+  - rubocop-performance
+
 Style/Documentation:
   Enabled: false
 Lint/RaiseException:

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'hammer_cli/i18n'
 
 module HammerCLIForemanLeapp
@@ -24,5 +26,6 @@ module HammerCLIForemanLeapp
   end
 end
 
-domain = [HammerCLIForemanLeapp::I18n::LocaleDomain.new, HammerCLIForemanLeapp::I18n::SystemLocaleDomain.new].find { |d| d.available? }
+domain = [HammerCLIForemanLeapp::I18n::LocaleDomain.new,
+          HammerCLIForemanLeapp::I18n::SystemLocaleDomain.new].find(&:available?)
 HammerCLI::I18n.add_domain(domain) if domain

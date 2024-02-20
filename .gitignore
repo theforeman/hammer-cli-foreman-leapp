@@ -8,3 +8,6 @@ pkg
 # Locale files
 locale/*/*.edit.po
 locale/*/*.po.time_stamp
+
+# RubyMine
+.idea
