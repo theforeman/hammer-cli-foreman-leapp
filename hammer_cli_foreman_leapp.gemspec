@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'hammer_cli_foreman_leapp'
   spec.version       = HammerCLIForemanLeapp.version.dup
   spec.license       = 'GPL-3.0'
-  spec.date          = Date.today.to_s
+  spec.date          = Time.now.utc.to_date.to_s
   spec.authors       = ['Foreman Leapp team']
   spec.email         = ['foreman-dev@googlegroups.com']
   spec.homepage      = 'https://github.com/stejskalleos/hammer-cli-foreman-leapp'
