@@ -14,7 +14,7 @@ module HammerCLIForemanLeapp
       end
 
       def domain_name
-        'hammer-cli-foreman-leapp'
+        'hammer_cli_foreman_leapp'
       end
     end
 
