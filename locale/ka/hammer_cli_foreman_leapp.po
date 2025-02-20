@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer-cli-foreman-leapp package.
+# This file is distributed under the same license as the hammer_cli_foreman_leapp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_leapp 0.1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 15:43+0000\n"
+"POT-Creation-Date: 2024-11-11 19:36+0100\n"
 "PO-Revision-Date: 2024-01-22 11:52+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2024\n"
 "Language-Team: Georgian (https://app.transifex.com/foreman/teams/114/ka/)\n"
